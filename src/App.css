@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.Weather{
+  color: aqua;
+  text-align: center;
+}
+.Weather > h1{
+  font-size: 4rem;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.main-container{
+  color: greenyellow
+
+}
+
+.h1{
+  color: blue
+}
